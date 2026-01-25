@@ -86,7 +86,7 @@ if st.button("Predict"):
             userinput=user_input(**payload)
          
             estimated_price=predict(userinput)
-            st.success(f"Predicted Price is Rs.{estimated_price} lakhs")
+            st.success(f"Predicted Price is Rs. {estimated_price} lakhs")
     except Exception as e:
             
             if hasattr(e, 'errors'):
