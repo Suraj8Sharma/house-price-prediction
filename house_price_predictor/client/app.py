@@ -1,8 +1,8 @@
 import streamlit as st 
 import requests
 from pydantic import BaseModel,Field,field_validator
-from fastapi import FastAPI ,HTTPException
-from typing import List,Literal
+
+
 import json
 import pickle
 import os 
@@ -50,7 +50,7 @@ def predict(userinput:user_input):
     x[2]=userinput.bhk
     if userinput.location:
         loc_name = userinput.location.lower()
-        location_index=all_columns.index(userinput.location.lower())
+        location_index=all_columns.index(loc_name)
         x[location_index]=1
     estimated_price=round(model.predict([x])[0],2)
     return estimated_price
