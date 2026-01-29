@@ -34,10 +34,11 @@ Deployment:
 Backend: FastAPI for high-performance API serving.
 
 Frontend: Streamlit for a clean, interactive user interface.
-#🛠️ Installation & Setup
+🛠️ Installation & Setup
 1. Clone the Repository
+
 ```Bash
-git clone https://github.com/Suraj8Sharma/house-price-prediction.git
+git clone [https://github.com/Suraj8Sharma/house-price-prediction.git](https://github.com/Suraj8Sharma/house-price-prediction.git)
 cd house-price-prediction
 ```
 2. Install Dependencies
@@ -71,4 +72,3 @@ Outlier Removal: Using business logic (price per sqft, bhk vs sqft) to filter no
 Model Selection: Using GridSearchCV to find the best performing model.
 
 Export: Saving the model as a .pickle file and column names as a .json for production use.
-
