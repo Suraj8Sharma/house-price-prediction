@@ -22,20 +22,18 @@ house-price-prediction/
 │   └── house_price_prediction.ipynb
 └── requirements.txt        # Project Dependencies 
 ```
-#🚀 Features
-### *Data Cleaning: Handled missing values, outliers, and dimensionality reduction.
----
+🚀 Features
+Data Cleaning: Handled missing values, outliers, and dimensionality reduction.
 
+Feature Engineering: Location-based one-hot encoding and square-ft processing.
 
-### *Feature Engineering: Location-based one-hot encoding and square-ft processing.
----
+Model Training: Built using Scikit-Learn (Linear Regression, Lasso, Decision Trees).
 
-### *Model Training: Built using Scikit-Learn (Linear Regression, Lasso, Decision Trees).
----
-###Deployment: - Backend: FastAPI for high-performance API serving.
----
-###Frontend: Streamlit for a clean, interactive user interface.
----
+Deployment:
+
+Backend: FastAPI for high-performance API serving.
+
+Frontend: Streamlit for a clean, interactive user interface.
 #🛠️ Installation & Setup
 1. Clone the Repository
 ```Bash
