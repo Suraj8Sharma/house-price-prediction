@@ -41,12 +41,7 @@ house-price-prediction/
 
     pip install -r requirements.txt
 
-### 3. Run the Backend (FastAPI)
 
-    cd server
-    python main.py
-
-*The server will typically start on `http://127.0.0.1:8000`*
 
 ### 4. Run the Frontend (Streamlit)
 
