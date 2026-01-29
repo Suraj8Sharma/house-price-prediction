@@ -16,7 +16,7 @@ house-price-prediction/
     │   ├── banglore_house_prices.csv
     │   └── house_price_prediction.ipynb
     └── requirements.txt        # Project Dependencies
-
+```
 ---
 
 ## 🚀 Features
