@@ -38,24 +38,28 @@ house-price-prediction/
 ---
 #🛠️ Installation & Setup
 1. Clone the Repository
-Bash
+```Bash
 git clone https://github.com/Suraj8Sharma/house-price-prediction.git
 cd house-price-prediction
+```
 2. Install Dependencies
-Bash
+```Bash
 pip install -r requirements.txt
+```
 3. Run the Backend (FastAPI)
-Bash
+```Bash
 cd server
 python main.py
+```
 The server will typically start on http://127.0.0.1:8000
 
 4. Run the Frontend (Streamlit)
 Open a new terminal and run:
 
-Bash
+```Bash
 cd client
 streamlit run app.py
+```
 📊 Dataset
 The dataset used is the Bangalore Home Prices dataset from Kaggle. It contains features like location, total square footage, number of bathrooms, and BHK.
 
