@@ -1,21 +1,17 @@
 # 🏠 Bangalore House Price Prediction
 ### *An End-to-End Machine Learning Web Application*
 
-This repository contains a full-stack machine learning project that predicts real estate prices in Bangalore, India. It includes the entire pipeline: from data cleaning and feature engineering to model deployment using FastAPI and a Streamlit frontend.
+This repository contains a full-stack machine learning project that predicts real estate prices in Bangalore, India. It includes the entire pipeline: from data cleaning and feature engineering to model deployment using Pydantic data validation  and a Streamlit frontend.
 
 ---
 
 ## 🏗️ Project Structure
 
-    house-price-prediction/
+```plaintext
+house-price-prediction/
+└── house_price_predictor/      # Main Project Folder
     ├── client/                 # Frontend Streamlit Web App
     │   └── app.py              # Main UI script
-    ├── server/                 # Backend FastAPI Server
-    │   ├── main.py             # API Routes & Server Config
-    │   ├── util.py             # Prediction logic & Artifact loading
-    │   └── artifacts/          # Trained Model & Feature Columns
-    │       ├── banglore_home_price_model.pickle
-    │       └── columns.json
     ├── model/                  # Data Science & Training
     │   ├── banglore_house_prices.csv
     │   └── house_price_prediction.ipynb
