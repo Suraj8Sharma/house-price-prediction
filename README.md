@@ -20,7 +20,8 @@ house-price-prediction/
 ├── model/                  # Data Science & Training
 │   ├── banglore_house_prices.csv
 │   └── house_price_prediction.ipynb
-└── requirements.txt        # Project Dependencies ```
+└── requirements.txt        # Project Dependencies 
+```
 #🚀 Features
 ### *Data Cleaning: Handled missing values, outliers, and dimensionality reduction.
 ---
